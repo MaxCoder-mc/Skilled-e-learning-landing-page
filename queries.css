@@ -14,6 +14,8 @@
 
   .header {
     padding-block: calc((24 / 16) * 1rem);
+    position: relative;
+    z-index: 1;
   }
 
   .hero {
