@@ -134,10 +134,10 @@ body {
   background-color: var(--White);
   border-radius: 1rem;
   padding: 4rem 2rem 2.5rem 2rem;
-
   display: flex;
   flex-direction: column;
   gap: var(--S-24);
+  height: calc(100% - 1.75rem);
 }
 .feature-title {
   font: var(--Text-Preset-4);
@@ -148,6 +148,7 @@ body {
   font-weight: 700;
 }
 .feature-link:is(:link, :visited) {
+  margin-top: auto;
   font: var(--Text-Preset-7);
   color: var(--Pink-600);
   transition: all 0.3s;
